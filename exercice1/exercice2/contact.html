@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+
+    <nav class="menu">
+
+    <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="presentation.html">Présentation</a> </li>
+        <li> <a href="realisation.html">Réalisation</a></li>
+    </ul>
+
+       <button><a role="button" class="button" href="index.html">Retour</a>
+       </button>
+
+    </nav>
+
+
+    <h1>Contact</h1>
+    <h2>Notre équipe</h2>
+
+
+    <img src="images/istockphoto-1171773314-1024x1024.jpg"
+    alt="image oiseau">
+
+<table>
+
+<tr>
+    <td>Adresse:</td>
+    <td>Ushuaia</td>
+</tr>
+<tr>
+    <td>Telephone:</td>
+    <td>06.52.85.50.20</td>
+</tr>
+<tr>
+    <td>Mail:</td>
+    <td>bird@gmail.com</td>
+</tr>
+
+
+</table>
+
+<div class="connexion">
+   <fieldset>
+    <legend>connection</legend>
+    <form action="#" method="post">
+
+        <label for="Identifiant">Identifiant</label>
+        <input type="text" name="id" required/>
+        <label for="password">Mot de passe</label>
+        <input type="password" name="id" required/><br>
+        <input type="button" value="connect">
+       
+    </fieldset>
+
+
+    </form>
+</div>
+
+<div class="Identite">
+    <fieldset>
+     <legend>Identité</legend>
+     <form action="#" method="post">
+ 
+         <label for="civilite">Civilité</label>
+         <select name="civilite" id="civilite">
+            <option value="Mme">Mme</option>
+            <option value="Mr">Mr</option>
+            <option value="Melle">Melle</option>
+         </select><br>
+
+         <label for="nom">Nom</label>
+         <input type="text" name="nom" required/><br>
+
+         <label for="prenom">Prénom</label>
+         <input type="text" name="prenom" required/><br>
+
+         <label for="mail">Mail</label>
+         <input type="email" name="mail" required/><br>
+
+         <label for="site">Site Web</label>
+         <input type="url" name="site" /><br>
+
+         <label for="presentation">Message</label>
+         <textarea name="message" id="message"></textarea><br>
+        
+         <label for="photo"> Joindre Photo</label>
+         <input type="file" id="file" accept="jpg,png,gif"/><br>
+
+         Centres d'interêt
+        <label for="sport"><input type="checkbox" name="sport" id="sport"/>
+         Sport</label>
+         <label for="nature"><input type="checkbox" name="nature" id="nature"/>
+            Nature</label>
+            <label for="lecture"><input type="checkbox" name="lecture" id="lecture"/>
+                Lecture</label>
+   <!-- mettre le formulaire pour cgu etc..; -->
+
+     </fieldset>
+ 
+     
+     </form>
+ </div>
+
+
+</body>
+</html>
