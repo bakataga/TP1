@@ -1,0 +1,30 @@
+h1{
+    font-size: x-large;
+    font-weight: bold;
+}
+h2{
+    font-size: medium;
+    font-weight: normal;
+}
+tr,td,table{
+    border:1px solid black;
+    border-collapse:collapse ;
+}
+img{
+
+width:50%;
+height: 50%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+    margin-top: 10px;
+    
+}
+
+.connexion, .identite{
+width: 60%;
+}
